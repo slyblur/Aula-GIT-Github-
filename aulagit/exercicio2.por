@@ -5,6 +5,7 @@ programa
 	{
 		inteiro vetor [10], x
 		inteiro soma = 0
+		inteiro subtracao = 0
 		real media = 0
 
 		para (x=0; x<=9; x++) 
@@ -29,6 +30,12 @@ programa
 		}
 		 	escreva  ("\n\nA soma dos índices é:",soma)
 
+		para (x=0; x<=9; x++)
+		{		
+			subtracao = (subtracao - vetor[x])
+		}
+		 	escreva  ("\n\nA subtracao dos índices é:",subtracao)
+
 		para (x=0; x<=9; x++) 
 		{
 			media = (soma/10)	
@@ -41,7 +48,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 584; 
+ * @POSICAO-CURSOR = 91; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
